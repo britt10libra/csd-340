@@ -1,0 +1,65 @@
+/*
+Name: Brittany Smith
+Date: 11/01/2026
+Assignment: CSD 340 Module 3.3
+*/
+
+h1 {
+    text-align: center;
+}
+
+#left-div {
+    width: 45%;
+    float: left;
+}
+
+#right-div {
+    width: 45%;
+    float: right;
+}
+
+#last-div {
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+ol, ul {
+    font-weight: 300;
+}
+
+#left-div h3,
+#left-div ol {
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+#left-div ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#right-div h3,
+#right-div ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+}
+
+#right-div ul {
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#last-div a {
+    float: right;
+}
