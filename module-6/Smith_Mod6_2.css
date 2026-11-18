@@ -1,0 +1,94 @@
+/* Brittany Smith
+   Module 6.2 Assignment
+   CSD-340 Web Development
+   November 17, 2026
+*/
+
+header {
+    background-color: #173D2B;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+/* Navigation bar styling */
+#navbar {
+    overflow: hidden;
+    background-color: #9E252B;
+    border-bottom: 15px solid #C9A227;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #C9A227;
+    color: #173D2B;
+}
+/* Container styling */
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    background-color: #FFFDF5;
+}
+
+/* Card title styling */
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #173D2B;
+    font-weight: 400;
+}
+
+/* Card content styling */
+.card-content {
+    padding: 2px 16px;
+}
+
+/* Card hover effect */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* Footer styling */
+footer {
+    background-color: #173D2B;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    color: #C9A227;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
